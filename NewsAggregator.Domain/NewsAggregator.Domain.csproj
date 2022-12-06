@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NewsAggregator.InterfaceModels\NewsAggregator.InterfaceModels.csproj" />
+    <ProjectReference Include="..\NewsAggregator\NewsAggregator.Helpers.csproj" />
+  </ItemGroup>
+
+</Project>
